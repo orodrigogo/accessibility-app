@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "accessibility-app",
+    "slug": "accessibility-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "accessibility-app"
+}
