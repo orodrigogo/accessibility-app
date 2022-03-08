@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Leagues } from '../../components/Leagues';
-import { MathNow } from '../../components/MathNow';
+import { MatchNow } from '../../components/MatchNow';
 import { Header } from '../../components/Header';
-import { Maths } from '../../components/Maths';
+import { Matches } from '../../components/Matches';
 import { Container } from './styles';
 
 export function Home() {
@@ -11,8 +11,8 @@ export function Home() {
     <Container>
       <Header />
       <Leagues />
-      <MathNow />
-      <Maths />
+      <MatchNow />
+      <Matches />
     </Container>
   );
 }

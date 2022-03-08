@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Title, Turn, Image, Score, Play, LeagueLogo } from './styles';
 import { MATCH } from '../../utils/match';
 
-export function MathNow() {
+export function MatchNow() {
   return (
     <Container>
       <Title>{MATCH.league}</Title>

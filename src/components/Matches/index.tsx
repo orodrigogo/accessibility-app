@@ -1,13 +1,13 @@
 import React from 'react';
 import { FlatList } from 'react-native';
 
-import { Math } from '../Math';
+import { Match } from '../Match';
 import { TEAMS } from '../../utils/teams';
 
 import { Container, Title } from './styles';
 import { Search } from '../Search';
 
-export function Maths() {
+export function Matches() {
 
   return (
     <Container>
@@ -19,7 +19,7 @@ export function Maths() {
         data={TEAMS}
         keyExtractor={item => item.id}
         renderItem={({ item }) => (
-          <Math
+          <Match
             data={item}
           />
         )}

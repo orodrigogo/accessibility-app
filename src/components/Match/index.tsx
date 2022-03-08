@@ -14,7 +14,7 @@ type Props = TouchableOpacityProps & {
   }
 }
 
-export function Math({ data, ...rest }: Props) {
+export function Match({ data, ...rest }: Props) {
   return (
     <Container {...rest}>
       <Team>
